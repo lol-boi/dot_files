@@ -1,0 +1,26 @@
+font-style = JetBrainsMono NFM Regular
+font-style-bold = JetBrainsMono NFM SemiBold
+font-style-italic = JetBrainsMono NFM Medium Italic
+font-style-bold-italic = JetBrainsMono NFM SemiBold Italic
+font-size= 15
+window-inherit-font-size = false
+mouse-hide-while-typing = true
+theme = aman
+cursor-style = bar
+fullscreen = false
+window-vsync = true
+window-subtitle = false
+window-theme = ghostty
+clipboard-read = allow
+clipboard-write = allow
+quit-after-last-window-closed = true
+quick-terminal-position = top
+quick-terminal-screen = mouse
+#quick-terminal-hide
+gtk-titlebar-hide-when-maximized = true
+#gtk-titlebar = true
+gtk-adwaita = true
+desktop-notifications = true
+auto-update = download
+keybind = super>t=toggle_quick_terminal
+gtk-titlebar = false

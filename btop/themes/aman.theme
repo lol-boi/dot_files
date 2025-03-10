@@ -1,0 +1,61 @@
+# Bashtop Paper theme - Hybrid Edition
+# Updated using colors from hybrid.txt
+
+# Main background (matches *.background)
+theme[main_bg]="#fff2d5"
+
+# Main text color (matches *.foreground)
+theme[main_fg]="#332800"
+
+# Title color for boxes
+theme[title]="#332800"
+
+# Highlight color (matches *.color1)
+theme[hi_fg]="#ff585d"
+
+# Selected item background (matches *.color7)
+theme[selected_bg]="#f3e2bf"
+
+# Selected item text (matches *.color0)
+theme[selected_fg]="#332800"
+
+# Inactive text (matches *.color8)
+theme[inactive_fg]="#5c4d33"
+
+# Misc processes colors (matches *.color6)
+theme[proc_misc]="#07737a"
+
+# Box outlines (matches *.color0)
+theme[cpu_box]="#332800"
+theme[mem_box]="#332800"
+theme[net_box]="#332800"
+theme[proc_box]="#332800"
+theme[div_line]="#332800"
+
+# Temperature graph (yellow -> cyan -> red)
+theme[temp_start]="#d19d01"
+theme[temp_mid]="#07737a"
+theme[temp_end]="#ff585d"
+
+# CPU graph (green -> yellow -> red)
+theme[cpu_start]="#76bb40"
+theme[cpu_mid]="#d19d01"
+theme[cpu_end]="#ff585d"
+
+# Memory meters
+theme[free_start]="#76bb40"
+theme[free_end]="#76bb40"
+theme[cached_start]="#0061fe"
+theme[cached_end]="#0061fe"
+theme[available_start]="#8dcc5f"
+theme[available_end]="#8dcc5f"
+theme[used_start]="#ff585d"
+theme[used_end]="#ff585d"
+
+# Network graphs (cyan -> yellow -> red)
+theme[download_start]="#2da4ab"
+theme[download_mid]="#f3e03b"
+theme[download_end]="#ff7a7e"
+theme[upload_start]="#2da4ab"
+theme[upload_mid]="#f3e03b"
+theme[upload_end]="#ff7a7e"
