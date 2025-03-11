@@ -1,0 +1,92 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "golden",
+  "author": "Your Name",
+  "themes": [
+    {
+      "name": "golden Light",
+      "appearance": "light",
+      "accents": [
+        "#0061fe",   // Primary Blue
+        "#76bb40",    // Success Green
+        "#d19d01",    // Golden Accent
+        "#07737a",    // Teal
+        "#8e2949",    // Muted Red
+        "#d91c81",    // Vibrant Pink
+        "#f3e03b"     // Bright Yellow
+      ],
+      "style": {
+        // Core UI Colors
+        "background": "#fff2d5",       // Golden-Brown Background
+        "surface.background": "#f3e2bf", // Secondary Cream
+        "elevated_surface.background": "#f3e2bf",
+        
+        // Text & Icons
+        "text": "#332800",             // Primary Text (Dark Brown)
+        "text.muted": "#8e2949cc",     // Muted Red (80% opacity)
+        "text.accent": "#0061fe",      // Blue Links
+        "icon": "#332800",
+        "icon.accent": "#d19d01",       // Gold Icons
+        
+        // Borders & Focus
+        "border": "#d19d01aa",         // Gold Border (60% opacity)
+        "border.focused": "#0061fe",   // Blue Focus Ring
+        "border.selected": "#d19d01",
+        "border.disabled": "#8e294966", // Muted Red (40% opacity)
+        
+        // Interactive Elements
+        "element.background": "#f3e2bf",     // Button BG
+        "element.hover": "#e6d5b0",          // Hover State
+        "element.active": "#d19d01",         // Active State (Gold)
+        "drop_target.background": "#3328001a", // Drag-and-Drop
+        
+        // Panels & Toolbars
+        "status_bar.background": "#fff2d5",
+        "title_bar.background": "#fff2d5",
+        "toolbar.background": "#f3e2bf",
+        "panel.background": "#f3e2bf",
+        
+        // Editor Customization
+        "editor.foreground": "#332800",
+        "editor.background": "#fff2d5",
+        "editor.gutter.background": "#fff2d5",
+        "editor.active_line.background": "#f3e2bf",
+        "editor.line_number": "#8e2949",
+        "editor.selection.background": "#0061fe33", // Blue Selection (20%)
+        
+        // Terminal ANSI Colors (Mapped to Your Palette)
+        "terminal.ansi.red": "#ff585d",     // Error Red
+        "terminal.ansi.green": "#76bb40",   // Success Green
+        "terminal.ansi.yellow": "#d19d01",  // Warning Gold
+        "terminal.ansi.blue": "#0061fe",    // Accent Blue
+        "terminal.ansi.magenta": "#d91c81", // Vibrant Pink
+        "terminal.ansi.cyan": "#07737a",    // Teal
+        "terminal.ansi.white": "#332800",   // Dark Brown Text
+        
+        // Status Highlights
+        "error": "#ff585d",
+        "success": "#76bb40",
+        "warning": "#d19d01"
+      },
+      "syntax": {
+        // Core Syntax Colors
+        "keyword": {"color": "#0061fe"},      // Blue
+        "function": {"color": "#07737a"},     // Teal
+        "string": {"color": "#76bb40"},       // Green
+        "number": {"color": "#d91c81"},       // Pink
+        "type": {"color": "#d19d01"},         // Gold
+        "comment": {"color": "#8e2949cc"},    // Muted Red (80% opacity)
+        "variable": {"color": "#332800"},     // Dark Brown
+        "constant": {"color": "#f3e03b"},     // Yellow
+        "operator": {"color": "#8e2949"},     // Muted Red
+        "punctuation": {"color": "#33280080"}, // Transparent Brown
+        
+        // Language-Specific Tweaks
+        "function.builtin": {"color": "#0061fe"},  // Built-in Functions (Blue)
+        "tag": {"color": "#d19d01"},               // HTML Tags (Gold)
+        "attribute": {"color": "#07737a"},         // HTML Attributes (Teal)
+        "string.regex": {"color": "#d91c81"}       // Regex (Pink)
+      }
+    }
+  ]
+}

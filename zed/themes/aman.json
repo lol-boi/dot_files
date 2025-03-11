@@ -1,0 +1,79 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "aman",
+  "author": "Aman Rawat",
+  "themes": [
+    {
+      "name": "aman Light",
+      "appearance": "light",
+      "accents": [
+        "#0061fe", // Blue accent (color4)
+        "#76bb40", // Green accent (color2)
+        "#d19d01", // Gold accent (color3)
+        "#d91c81", // Pink accent (color13)
+        "#07737a", // Teal accent (color6)
+        "#ff585d", // Red accent (color1)
+        "#f3e03b" // Yellow accent (color11)
+      ],
+      "style": {
+        "border": "#d19d01", // Gold border (color3)
+        "border.variant": "#f3e2bf", // Light cream (color7)
+        "border.focused": "#0061fe", // Blue focus (color4)
+        "border.selected": "#0061fe", // Blue selected (color4)
+        "border.transparent": "#00000000",
+        "border.disabled": "#ff585d", // Muted red (color1 - using red as disabled often red-tinted)
+        "elevated_surface.background": "#f3e2bf", // Light cream (color7)
+        "surface.background": "#f3e2bf", // Light cream (color7)
+        "background": "#fff2d5", // Main background (color15)
+        "element.background": "#f3e2bf", // Light cream (color7)
+        "element.hover": "#f3e2bf", // Light cream (color7) - keeping hover same as background for now, consider darker color8
+        "element.active": "#d19d01", // Gold active (color3)
+        "element.selected": "#d19d01", // Gold selected (color3)
+        "element.disabled": "#f3e2bf", // Light cream (color7)
+        "drop_target.background": "#5c4d3380", // Dark brown with 50% opacity (color8 with opacity)
+        "text": "#332800", // Primary text (color0) - **Ensuring #332800**
+        "text.muted": "#ff585d", // Muted red (color1)
+        "text.placeholder": "#ff585d", // Placeholder muted red (color1)
+        "text.accent": "#0061fe", // Blue accent (color4)
+        "icon": "#332800", // Icon (color0) - **Ensuring #332800**
+        "icon.muted": "#ff585d", // Icon muted red (color1)
+        "status_bar.background": "#fff2d5", // Status bar background (color15)
+        "title_bar.background": "#fff2d5", // Title bar background (color15)
+        "toolbar.background": "#f3e2bf", // Toolbar background (color7)
+        "tab_bar.background": "#f3e2bf", // Tab bar background (color7)
+        "tab.active_background": "#fff2d5", // Active tab background (color15)
+        "search.match_background": "#0061fe66", // Blue with 40% opacity (color4 with opacity)
+        "panel.background": "#f3e2bf", // Panel background (color7)
+        "scrollbar.thumb.background": "#3328004c", // Dark brown with 30% opacity (color0 with opacity)
+        "editor.foreground": "#332800", // Editor foreground (color0)
+        "editor.background": "#fff2d5", // Editor background (color15)
+        "editor.gutter.background": "#fff2d5", // Editor gutter background (color15)
+        "editor.active_line.background": "#f3e2bf", // Editor active line (color7) - consider darker color8
+        "editor.line_number": "#ff585d", // Editor line number (color1)
+        "terminal.background": "#fff2d5", // Terminal background (color15)
+        "terminal.foreground": "#332800", // Terminal foreground (color0)
+        "terminal.ansi.red": "#ff585d", // Error red (color1)
+        "terminal.ansi.green": "#76bb40", // Success green (color2)
+        "terminal.ansi.yellow": "#d19d01", // Warning gold (color3)
+        "terminal.ansi.blue": "#0061fe", // Accent blue (color4)
+        "terminal.ansi.magenta": "#d91c81", // Vibrant pink (color13)
+        "terminal.ansi.cyan": "#07737a", // Teal (color6)
+        "error": "#ff585d", // Error (color1)
+        "success": "#76bb40", // Success (color2)
+        "warning": "#d19d01" // Warning (color3)
+      },
+      "syntax": {
+          "comment": {"color": "#ff585d"},    // Muted red (color1)
+          "keyword": {"color": "#0061fe"},    // Blue (color4)
+          "function": {"color": "#07737a"},    // Teal (color6)
+          "string": {"color": "#76bb40"},      // Green (color2)
+          "number": {"color": "#d91c81"},      // Pink (color13)
+          "type": {"color": "#d19d01"},        // Gold (color3)
+          "variable": {"color": "#332800"},    // Dark brown (color0)
+          "constant": {"color": "#f3e03b"},    // Yellow (color11)
+          "operator": {"color": "#ff585d"},    // Muted red (color1)
+          "punctuation": {"color": "#33280080"} // Semi-transparent brown (color0 with opacity)
+      }
+    }
+  ]
+}

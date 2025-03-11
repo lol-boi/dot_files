@@ -34,3 +34,9 @@ Use --utf-force argument to force start if you're sure your terminal can handle 
 
 2025/03/10 (23:12:56) | ===> btop++ v.1.4.0
 2025/03/10 (23:12:56) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/11 (01:01:26) | ===> btop++ v.1.4.0
+2025/03/11 (01:01:26) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/11 (21:50:51) | ===> btop++ v.1.4.0
+2025/03/11 (21:50:51) | WARNING: Intel GPU: Failed to initialize PMU

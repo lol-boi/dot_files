@@ -1,0 +1,79 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "kotsu",
+  "author": "Aman Rawat",
+  "themes": [
+    {
+      "name": "kotsu Light",
+      "appearance": "light",
+      "accents": [
+        "#0061fe",    // Blue accent
+        "#76bb40",    // Green accent
+        "#d19d01",    // Gold accent
+        "#d91c81",    // Pink accent
+        "#07737a",    // Teal accent
+        "#ff585d",    // Red accent
+        "#f3e03b"     // Yellow accent
+      ],
+      "style": {
+        "border": "#d19d01",          // Gold border
+        "border.variant": "#f3e2bf",  // Light cream
+        "border.focused": "#0061fe",  // Blue focus
+        "border.selected": "#0061fe",
+        "border.transparent": "#00000000",
+        "border.disabled": "#8e2949", // Muted red
+        "elevated_surface.background": "#f3e2bf",
+        "surface.background": "#f3e2bf",
+        "background": "#fff2d5",      // Main background
+        "element.background": "#f3e2bf",
+        "element.hover": "#f3e2bf",
+        "element.active": "#d19d01",  // Gold active
+        "element.selected": "#d19d01",
+        "element.disabled": "#f3e2bf",
+        "drop_target.background": "#33280080", // Dark brown with 50% opacity
+        "text": "#332800",            // Primary text
+        "text.muted": "#8e2949",       // Muted red
+        "text.placeholder": "#8e2949",
+        "text.accent": "#0061fe",      // Blue accent
+        "icon": "#332800",
+        "icon.muted": "#8e2949",
+        "status_bar.background": "#fff2d5",
+        "title_bar.background": "#fff2d5",
+        "toolbar.background": "#f3e2bf",
+        "tab_bar.background": "#f3e2bf",
+        "tab.active_background": "#fff2d5",
+        "search.match_background": "#0061fe66", // Blue with 40% opacity
+        "panel.background": "#f3e2bf",
+        "scrollbar.thumb.background": "#3328004c", // Dark brown with 30% opacity
+        "editor.foreground": "#332800",
+        "editor.background": "#fff2d5",
+        "editor.gutter.background": "#fff2d5",
+        "editor.active_line.background": "#f3e2bf",
+        "editor.line_number": "#8e2949",
+        "terminal.background": "#fff2d5",
+        "terminal.foreground": "#332800",
+        "terminal.ansi.red": "#ff585d",    // Error red
+        "terminal.ansi.green": "#76bb40",  // Success green
+        "terminal.ansi.yellow": "#d19d01", // Warning gold
+        "terminal.ansi.blue": "#0061fe",   // Accent blue
+        "terminal.ansi.magenta": "#d91c81",// Vibrant pink
+        "terminal.ansi.cyan": "#07737a",   // Teal
+        "error": "#ff585d",
+        "success": "#76bb40",
+        "warning": "#d19d01"
+      },
+      "syntax": {
+        "comment": {"color": "#8e2949"},     // Muted red
+        "keyword": {"color": "#0061fe"},     // Blue
+        "function": {"color": "#07737a"},    // Teal
+        "string": {"color": "#76bb40"},      // Green
+        "number": {"color": "#d91c81"},      // Pink
+        "type": {"color": "#d19d01"},        // Gold
+        "variable": {"color": "#332800"},    // Dark brown
+        "constant": {"color": "#f3e03b"},    // Yellow
+        "operator": {"color": "#8e2949"},    // Muted red
+        "punctuation": {"color": "#33280080"} // Semi-transparent brown
+      }
+    }
+  ]
+}
